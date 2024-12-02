@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>0.0.17</Version>
+        <PackageTags>preview</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Application" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Api.Test" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Controllers.Test" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Application.Test" />
+        <InternalsVisibleTo Include="Bmb.Domain.Core.Test" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Persistence.Test" />
+        <InternalsVisibleTo Include="AutoFixture.Xunit2" />
+        <InternalsVisibleTo Include="Bmb.Payment.TechChallenge.ByteMeBurger.Persistence.Test" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Persistence.Test" />
+        <InternalsVisibleTo Include="FIAP.TechChallenge.ByteMeBurger.Persistence.Test" />
+    </ItemGroup>
+
+</Project>
